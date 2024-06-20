@@ -4,10 +4,10 @@
 int main()
 {
 	int a,b,c,d;
-    float v;
+    double v;
 	scanf("%d%d%d", &a, &b, &c);
 	d=a+b+c;
-    v = d/3;
+    v = (float)d/3;
 	printf("%.2f\n", v);
     
 
